@@ -34,4 +34,5 @@ To generate random samples for a given set of sql queries run:
 ``` gen_samples.py [-h] --dbcfgfile DBCFGFILE --sqlfile SQLFILE ```
 
 Finally to load data, train and predict, run: 
+
 ``` train_and_run.py [-h] --sqltrain SQLTRAIN [--sqltest SQLTEST] [--epochs EPOCHS] --queries QUERIES [--batch BATCH] [--hid HID] [--sample_encoding] [--samples] ```
