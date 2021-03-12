@@ -5,8 +5,8 @@ Cardinality Estimation using ML
 ## Code Organization
 
 There's two sections to the code.
-* ipynb NBs - The web framework used 
-* code - command line interface to the tool and associated scripts
+* ipynb NBs - Notebooks to generate random queries and experiment with multiple SL architectures for training 
+* code - command line interface to the tool and associated scripts 
 
 ### Prerequisites
 * PyTorch 1.0
