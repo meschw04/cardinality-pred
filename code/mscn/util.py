@@ -5,6 +5,7 @@
 
 
 import numpy as np
+import math
 
 
 # Helper functions for data processing
@@ -18,6 +19,7 @@ def chunks(l, n):
 def get_all_column_names(predicates):
     column_names = set()
     for query in predicates:
+        #print(query)
         for predicate in query:
             if len(predicate) == 3:
                 column_name = predicate[0]
@@ -143,6 +145,14 @@ def encode_tables(tables, table2vec):
             table_vec = np.hstack(table_vec)
             tables_enc[i].append(table_vec)
     return tables_enc
+
+def norm_scards(scards, num_samples):
+    scards_norm =[]
+    #print(scards)
+    for scard in scards:
+        scardnew = [scarditem/num_samples for scarditem in scard]
+        scards_norm.append(scardnew)
+    return scards_norm
 
 def encode_data(predicates, joins, column_min_max_vals, column2vec, op2vec, join2vec):
     predicates_enc = []

@@ -1,0 +1,70 @@
+movie_companies mc,title t,movie_info_idx mi_idx#0#0#0
+movie_companies mc,title t,movie_info_idx mi_idx#0#0#0
+movie_companies mc,title t,movie_info_idx mi_idx#0#0#0
+movie_companies mc,title t,movie_info_idx mi_idx#0#0#0
+movie_companies mc,title t,movie_keyword mk#0#0#0
+title t,movie_info mi,movie_keyword mk#0#0#0
+title t,movie_info mi,movie_keyword mk#0#0#0
+title t,movie_info mi,movie_keyword mk#0#0#0
+title t,movie_info_idx mi_idx,movie_keyword mk#0#0#0
+title t,movie_info_idx mi_idx,movie_keyword mk#0#0#0
+title t,movie_info_idx mi_idx,movie_keyword mk#0#0#0
+title t,movie_info mi,movie_companies mc#0#0#0
+title t,movie_info mi,movie_companies mc#0#0#0
+title t,movie_info mi,movie_companies mc#0#0#0
+movie_keyword mk,title t,cast_info ci#0#0#0
+movie_keyword mk,title t,cast_info ci#0#0#0
+movie_keyword mk,title t,cast_info ci#0#0#0
+movie_keyword mk,title t,cast_info ci#0#0#0
+movie_keyword mk,title t,cast_info ci#0#0#0
+cast_info ci,title t#0#0
+cast_info ci,title t#0#0
+cast_info ci,title t#0#0
+cast_info ci,title t,movie_companies mc#0#0#0
+cast_info ci,title t,movie_companies mc#0#0#0
+cast_info ci,title t,movie_companies mc#0#0#0
+cast_info ci,title t,movie_companies mc#0#0#0
+cast_info ci,title t,movie_companies mc#0#0#0
+title t,cast_info ci,movie_companies mc#0#0#0
+title t,cast_info ci,movie_companies mc#0#0#0
+title t,cast_info ci,movie_companies mc#0#0#0
+title t,movie_keyword mk,movie_companies mc#0#0#0
+title t,movie_keyword mk,movie_companies mc#0#0#0
+title t,movie_keyword mk,movie_companies mc#0#0#0
+title t,movie_info mi,movie_info_idx mi_idx,movie_companies mc#0#0#0#0
+title t,movie_info mi,movie_info_idx mi_idx,movie_companies mc#0#0#0#0
+title t,movie_info mi,movie_info_idx mi_idx,movie_companies mc#0#0#0#0
+title t,movie_info mi,movie_companies mc,movie_info_idx mi_idx#0#0#0#0
+title t,movie_info mi,movie_info_idx mi_idx,movie_keyword mk#0#0#0#0
+title t,movie_info mi,movie_info_idx mi_idx,movie_keyword mk#0#0#0#0
+title t,movie_info mi,movie_info_idx mi_idx,movie_keyword mk#0#0#0#0
+title t,movie_info mi,movie_companies mc,movie_keyword mk#0#0#0#0
+title t,movie_info mi,movie_companies mc,movie_keyword mk#0#0#0#0
+title t,movie_info mi,movie_companies mc,movie_keyword mk#0#0#0#0
+cast_info ci,title t,movie_keyword mk,movie_companies mc#0#0#0#0
+title t,movie_info mi,movie_info_idx mi_idx,cast_info ci#0#0#0#0
+title t,movie_info mi,movie_info_idx mi_idx,cast_info ci#0#0#0#0
+title t,movie_info mi,movie_info_idx mi_idx,cast_info ci#0#0#0#0
+title t,movie_info mi,movie_companies mc,cast_info ci#0#0#0#0
+title t,movie_info mi,movie_companies mc,cast_info ci#0#0#0#0
+title t,movie_info mi,movie_companies mc,cast_info ci#0#0#0#0
+title t,cast_info ci,movie_keyword mk#0#0#0
+title t,cast_info ci,movie_keyword mk#0#0#0
+title t,movie_keyword mk,movie_companies mc,movie_info mi#0#0#0#0
+title t,movie_keyword mk,movie_companies mc,movie_info mi#0#0#0#0
+title t,movie_keyword mk,movie_companies mc,movie_info mi#0#0#0#0
+title t,movie_info mi,movie_info_idx mi_idx,movie_keyword mk,movie_companies mc#0#0#0#0#0
+title t,movie_info mi,movie_info_idx mi_idx,movie_keyword mk,movie_companies mc#0#0#0#0#0
+title t,movie_info mi,movie_companies mc,cast_info ci,movie_keyword mk#0#0#0#0#0
+title t,movie_info mi,movie_companies mc,cast_info ci,movie_keyword mk#0#0#0#0#0
+title t,movie_info mi,movie_companies mc,cast_info ci,movie_keyword mk#0#0#0#0#0
+title t,movie_info mi,movie_info_idx mi_idx,cast_info ci,movie_keyword mk#0#0#0#0#0
+title t,movie_info mi,movie_info_idx mi_idx,cast_info ci,movie_keyword mk#0#0#0#0#0
+title t,cast_info ci,movie_keyword mk,movie_info_idx mi_idx#0#0#0#0
+title t,cast_info ci,movie_keyword mk,movie_info_idx mi_idx#0#0#0#0
+title t,movie_keyword mk,movie_companies mc,movie_info mi#0#0#0#0
+title t,movie_info mi,movie_info_idx mi_idx,movie_keyword mk,movie_companies mc#0#0#0#0#0
+title t,movie_info mi,movie_info_idx mi_idx,movie_keyword mk,movie_companies mc#0#0#0#0#0
+title t,movie_info mi,movie_companies mc,cast_info ci,movie_keyword mk#0#0#0#0#0
+title t,movie_info mi,movie_companies mc,cast_info ci,movie_keyword mk#0#0#0#0#0
+title t,movie_info mi,movie_info_idx mi_idx,cast_info ci,movie_keyword mk#0#0#0#0#0
